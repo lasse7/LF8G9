@@ -39,7 +39,7 @@ Dieses Dokument wird gemeinsam von der Tischgruppe gepflegt. Nutzt die Git-Befeh
 | Emre:  | Das Erstellen und Verwenden von Test´s durchführen  |
 | Emre:  | Ich spreche in der Präsentation frei |
 | Saber: | Ich verstehe die Grundlagen von Python und kann einfache Programme selbst schreiben |
-| Saber: | Ich spreche bei Präsentationen ruhig, deutlich und in einem angemessenen Tempo |
+| Saber: | Ich verbessere mein Zeitmanagement, indem ich meinen Tagesablauf strukturiere und meine Aufgaben geplant einteile |
 
 
 
