@@ -36,8 +36,8 @@ Dieses Dokument wird gemeinsam von der Tischgruppe gepflegt. Nutzt die Git-Befeh
 | Lasse: | Ich spreche in der Präsentation frei |
 | Noah:  |  |
 | Noah:  |  |
-| Emre:  |  |
-| Emre:  |  |
+| Emre:  | Das Erstellen und Verwenden durchführen  |
+| Emre:  | Ich spreche in der Präsentation frei |
 | Saber: |  |
 | Saber: |  |
 
