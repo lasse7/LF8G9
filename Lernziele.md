@@ -35,8 +35,8 @@ Dieses Dokument wird gemeinsam von der Tischgruppe gepflegt. Nutzt die Git-Befeh
 | Lasse: | Verwendung von VCS anwenden können |
 | Lasse: | Ich spreche in der Präsentation frei |
 | Noah:  |  |
-| Noah:  |  |
-| Emre:  | Das Erstellen und Verwenden durchführen  |
+| Noah:  | Frei Präsentieren  |
+| Emre:  | Das Erstellen und Verwenden von Test´s durchführen  |
 | Emre:  | Ich spreche in der Präsentation frei |
 | Saber: |  |
 | Saber: |  |
