@@ -34,8 +34,8 @@ Dieses Dokument wird gemeinsam von der Tischgruppe gepflegt. Nutzt die Git-Befeh
 | :--- | :--- |
 | Lasse: | Verwendung von VCS anwenden können |
 | Lasse: | Ich spreche in der Präsentation frei |
-| Noah:  |  |
-| Noah:  | Frei Präsentieren  |
+| Noah:  | Ich verstehe das Prinzip von Versionierung und kann ältere Versionen eines Projekts nachvollziehen|
+| Noah:  | Ich arbeite konzentriert und gehe konstruktiv mit Feedback um |
 | Emre:  | Das Erstellen und Verwenden von Test´s durchführen  |
 | Emre:  | Ich spreche in der Präsentation frei |
 | Saber: | Ich verstehe die Grundlagen von Python und kann einfache Programme selbst schreiben |
