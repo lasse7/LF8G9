@@ -38,8 +38,8 @@ Dieses Dokument wird gemeinsam von der Tischgruppe gepflegt. Nutzt die Git-Befeh
 | Noah:  | Frei Präsentieren  |
 | Emre:  | Das Erstellen und Verwenden von Test´s durchführen  |
 | Emre:  | Ich spreche in der Präsentation frei |
-| Saber: |  |
-| Saber: |  |
+| Saber: | Ich verstehe die Grundlagen von Python und kann einfache Programme selbst schreiben |
+| Saber: | Ich spreche bei Präsentationen ruhig, deutlich und in einem angemessenen Tempo |
 
 
 
