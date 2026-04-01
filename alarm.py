@@ -56,7 +56,7 @@ def check_value(value, soft_limit, hard_limit, text):
 
         if state == "HARD":
             log_message("HARD ALARM: " + msg)
-            send_email(msg)
+    #        send_email(msg)
 
         elif state == "SOFT":
             log_message("WARNUNG: " + msg)

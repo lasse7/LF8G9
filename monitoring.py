@@ -12,6 +12,10 @@ def check_memory(soft, hard):
 def check_processes(soft, hard):
     processes = len(psutil.pids())
     return check_value(processes, soft, hard, "Process count")
+    
+def check_disk(soft, hard):
+    disk = psutil.disk_usage("C:").percent
+    return check_value(disk, soft, hard, "Disk usage (%)")
 
 
 def main():
@@ -20,6 +24,8 @@ def main():
     parser.add_argument("--mem-hard", type=int, default=90)
     parser.add_argument("--proc-soft", type=int, default=150)
     parser.add_argument("--proc-hard", type=int, default=300)
+    parser.add_argument("--disk-soft", type=int, default=70)
+    parser.add_argument("--disk-hard", type=int, default=90)
     parser.add_argument("--interval", type=int, default=10)  # Sekunden
 
     args = parser.parse_args()
@@ -30,6 +36,7 @@ def main():
 
             print("Memory:", check_memory(args.mem_soft, args.mem_hard))
             print("Processes:", check_processes(args.proc_soft, args.proc_hard))
+            print("Disk:", check_disk(args.disk_soft, args.disk_hard))
 
             time.sleep(args.interval)
 
