@@ -18,7 +18,6 @@ def check_value(value, soft_limit, hard_limit, text):
 
     if value >= hard_limit:
         log_message("HARD ALARM: " + msg)
-        send_email(msg)
         return "HARD"
 
     elif value >= soft_limit:
