@@ -1,5 +1,6 @@
 import datetime
 import socket
+from email.message import EmailMessage
 import smtplib
 
 LOGFILE = "monitor.log"
@@ -12,14 +13,17 @@ def log_message(message):
 
 
 def send_email(message):
-    sender = "lf8g9@yahoo.de"
-    receiver = "lf8g9@yahoo.de"
+    msg = EmailMessage()
+    msg.set_content(message)
+    msg["Subject"] = "Monitoring Alarm"
+    msg["From"] = "p_lasse@yahoo.de"
+    msg["To"] = "lf8g9@yahoo.com"
 
     try:
-        with smtplib.SMTP("smtp.mail.yahoo.com", 465) as server:
+        with smtplib.SMTP("smtp.mail.yahoo.com", 587) as server:
             server.starttls()
-            server.login("lf8g9@yahoo.de", "Anfang-1")
-            server.sendmail(sender, receiver, message)
+            server.login("p_lasse@yahoo.de", "frhxninmqnovtkwj")
+            server.send_message(msg)
     except Exception as e:
         print("E-Mail Fehler:", e)
 
@@ -56,7 +60,7 @@ def check_value(value, soft_limit, hard_limit, text):
 
         if state == "HARD":
             log_message("HARD ALARM: " + msg)
-    #        send_email(msg)
+            send_email(msg)
 
         elif state == "SOFT":
             log_message("WARNUNG: " + msg)
