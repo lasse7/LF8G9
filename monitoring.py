@@ -1,5 +1,6 @@
 import time
 import psutil
+import os
 import argparse
 from alarm import check_value
 
@@ -14,7 +15,13 @@ def check_processes(soft, hard):
     return check_value(processes, soft, hard, "Process count")
     
 def check_disk(soft, hard):
-    disk = psutil.disk_usage("C:").percent
+    path = "/"
+    if os.name == "nt":  
+        path = "C:"
+   # else:  
+   #     path = "/"
+    
+    disk = psutil.disk_usage(path).percent
     return check_value(disk, soft, hard, "Disk usage (%)")
 
 
